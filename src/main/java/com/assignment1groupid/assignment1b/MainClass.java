@@ -49,9 +49,9 @@ public class MainClass {
         sam.addModule(machineLearningModule);
         sam.addModule(unprofessionalSkillsModule);
     
-        System.out.println(john.getUsername()+"\n"+john.courseList());
-        System.out.println(steve.getUsername()+"\n"+steve.courseList());
-        System.out.println(sam.getUsername()+"\n"+sam.courseList());
+        System.out.println(john.getUsername()+"\n"+john.courseList()+"\n"+john.moduleList());
+        System.out.println(steve.getUsername()+"\n"+steve.courseList()+"\n"+steve.moduleList());
+        System.out.println(sam.getUsername()+"\n"+sam.courseList()+"\n"+sam.moduleList());
         System.out.println();
         System.out.println(ct404.moduleList());
         System.out.println(ct405.moduleList());
